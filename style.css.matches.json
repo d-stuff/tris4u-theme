@@ -1,3 +1,4 @@
 {
-  "*": ["flex-row", "blue-box"]
+  "*": ["flex-row", "blue-box"],
+  "BlockBox": ["custom-title"]
 }
