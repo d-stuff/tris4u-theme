@@ -11,6 +11,8 @@
  --main-color: #8bc34a;
 }
 
+#app main { height: 100%; }
+
 .flex-row {
   display: flex;
   flex-direction: row;
