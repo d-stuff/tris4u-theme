@@ -1,8 +1,8 @@
 #app {
  --font-regular: 16px;
- --font-big: 18px;
- --font-bigger: 24px;
- --font-huge: 28px;
+ --font-big: 24px;
+ --font-bigger: 28px;
+ --font-huge: 32px;
 }
 
 .flex-row {
