@@ -3,7 +3,6 @@
 #app {
  font-family: 'Roboto', sans-serif;
  height: 100vh;
- overflow:auto;
  --font-regular: 16px;
  --font-big: 24px;
  --font-bigger: 28px;
@@ -11,7 +10,10 @@
  --main-color: #8bc34a;
 }
 
-#app main { height: 100%; }
+#app main { 
+ height: 100%;
+ overflow:auto;
+}
 
 .flex-row {
   display: flex;
