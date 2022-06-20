@@ -47,6 +47,6 @@ h3 {
 }
 
 .posts-list .post-item a { color: #fff; }
-.posts-list .post-item a:hover, .posts-list .post-item:hover a { border-bottom: 1px solid var(--main-color); }
+.posts-list .post-item a:hover, .posts-list .post-item:hover a { border-bottom: 1px solid #fff; }
 
 .posts-list .post-item:hover { background-color: #64b596 }
