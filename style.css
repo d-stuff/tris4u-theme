@@ -1,8 +1,8 @@
 #app {
- --font-regular: 12px;
- --font-big: 16px;
- --font-bigger: 20px;
- --font-huge: 24px;
+ --font-regular: 16px;
+ --font-big: 18px;
+ --font-bigger: 24px;
+ --font-huge: 28px;
 }
 
 .flex-row {
@@ -28,4 +28,11 @@ h2 {
 
 h3 {
   font-size: var(--font-big);
+}
+
+.posts-list .post-item {
+ margin: 10px;
+ padding: 10px;
+ border-radius: 5px;
+ background-color: #8bc34a;
 }
