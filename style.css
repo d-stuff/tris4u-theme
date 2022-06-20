@@ -18,7 +18,7 @@ a { color: var(--main-color); }
 a:hover { border-bottom: 1px solid var(--main-color); }
 
 p, h1, h2, h3, h4, h5 {
-  padding: 10px 0;
+  padding: 10px;
 }
 
 p, .post-item-short {
@@ -45,6 +45,8 @@ h3 {
  background-color: var(--main-color);
  transition: background-color 0.3s linear;
 }
+
+.posts-list .post-item h2 { padding: 10px 0; }
 
 .posts-list .post-item a { color: #fff; }
 .posts-list .post-item a:hover, .posts-list .post-item:hover a { border-bottom: 1px solid #fff; }
