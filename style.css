@@ -6,12 +6,15 @@
  --font-big: 24px;
  --font-bigger: 28px;
  --font-huge: 32px;
+ --main-color: #8bc34a;
 }
 
 .flex-row {
   display: flex;
   flex-direction: row;
 }
+
+a { color: var(--main-color); }
 
 p, h1, h2, h3, h4, h5 {
   padding: 0 10px;
@@ -38,7 +41,7 @@ h3 {
  margin: 10px;
  padding: 10px;
  border-radius: 5px;
- background-color: #8bc34a;
+ background-color: var(--main-color);
  transition: background-color 0.3s linear;
 }
 
