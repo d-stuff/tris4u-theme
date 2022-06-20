@@ -1,4 +1,31 @@
+#app {
+ --font-regular: 12px;
+ --font-big: 16px;
+ --font-bigger: 20px;
+ --font-huge: 24px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+p, h1, h2, h3, h4, h5 {
+  padding: 10px;
+}
+
+p {
+  font-size: var(--font-regular);
+}
+
+h1 {
+  font-size: var(--font-huge);
+}
+
+h2 {
+  font-size: var(--font-bigger);
+}
+
+h3 {
+  font-size: var(--font-big);
 }
