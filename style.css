@@ -2,6 +2,8 @@
 
 #app {
  font-family: 'Roboto', sans-serif;
+ height: 100vh;
+ overflow:auto;
  --font-regular: 16px;
  --font-big: 24px;
  --font-bigger: 28px;
@@ -54,6 +56,8 @@ h3 {
 .posts-list .post-item:hover { background-color: #64b596 }
 
 footer {
+ position: sticky;
+ top: 100%;
  padding: 10px;
  background-color: #64b596;
 }
