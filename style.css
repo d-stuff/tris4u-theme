@@ -57,7 +57,12 @@ h3 {
 .posts-list .post-item a { color: #fff; }
 .posts-list .post-item a:hover, .posts-list .post-item:hover a { border-bottom: 1px solid #fff; }
 
-.posts-list .post-item:hover { background-color: #64b596 }
+.posts-list .post-item:hover { background-color: #64b596; }
+
+.post-short {
+ background-color: #eee;
+ font-size: var(--font-big);
+}
 
 footer {
  position: sticky;
