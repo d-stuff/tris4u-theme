@@ -59,7 +59,7 @@ h3 {
 
 .posts-list .post-item:hover { background-color: #64b596; }
 
-.post-short {
+.post-short, .post-short p {
  background-color: #eee;
  font-size: var(--font-big);
 }
