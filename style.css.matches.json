@@ -1,3 +1,4 @@
 {
-  "*": ["flex-row"]
+  "*": ["flex-row"],
+  "BlockBox": ["footer"]
 }
