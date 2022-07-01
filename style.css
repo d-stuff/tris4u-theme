@@ -12,8 +12,8 @@
 }
 
 #app main { 
- height: 100%;
- overflow:auto;
+ min-height: 100vh;
+ overflow: auto;
 }
 
 .flex-row {
