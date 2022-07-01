@@ -8,6 +8,7 @@
  --font-bigger: 28px;
  --font-huge: 32px;
  --main-color: #8bc34a;
+ --secondary-color: #607d8b;
 }
 
 #app main { 
@@ -44,6 +45,14 @@ h3 {
   font-size: var(--font-big);
 }
 
+.menu-wrapper {
+ background-color: var(--secondary-color);
+ padding: 10px;
+ margin: 0;
+}
+
+.menu-wrapper .menu { display: flex; flex-direction: row; justify-content: center; }
+
 .posts-list .post-item {
  margin: 10px;
  padding: 10px;
@@ -51,6 +60,8 @@ h3 {
  background-color: var(--main-color);
  transition: background-color 0.3s linear;
 }
+
+.menu-link a { display: block; color: #000; }
 
 .posts-list .post-item h2 { padding: 10px 0; }
 
