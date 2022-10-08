@@ -53,32 +53,5 @@ h3 {
 
 .menu-wrapper .menu { display: flex; flex-direction: row; align-items: center; gap: 10px; }
 
-.menu-link a { display: block; color: #000; padding: 10px; }
+.menu-link a { display: block; color: #fff; padding: 10px; text-decoration: none; }
 .menu-link a:hover { border: none; background-color: #000; color: #fff;  }
-
-.posts-list .post-item {
- margin: 10px;
- padding: 10px;
- border-radius: 5px;
- background-color: var(--main-color);
- transition: background-color 0.3s linear;
-}
-
-.posts-list .post-item h2 { padding: 10px 0; }
-
-.posts-list .post-item a { color: #fff; }
-.posts-list .post-item a:hover, .posts-list .post-item:hover a { border-bottom: 1px solid #fff; }
-
-.posts-list .post-item:hover { background-color: #64b596; }
-
-.post-short, .post-short p {
- background-color: #eee;
- font-size: var(--font-big);
-}
-
-footer, .footer {
- position: sticky;
- top: 100%;
- padding: 10px;
- background-color: #64b596;
-}
