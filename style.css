@@ -12,7 +12,7 @@
 }
 
 #app main { 
- min-height: 500vh;
+ min-height: 50vh;
  overflow: auto;
 }
 
