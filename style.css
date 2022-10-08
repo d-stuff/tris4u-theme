@@ -21,7 +21,7 @@
   flex-direction: row;
 }
 
-a { color: var(--main-color); }
+a { color: var(--main-color); text-decoration: none; }
 a:hover { border-bottom: 1px solid var(--main-color); }
 
 p, h1, h2, h3, h4, h5 {
