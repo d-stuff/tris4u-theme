@@ -56,4 +56,4 @@ h3 {
 .menu-link a { display: block; color: #fff; padding: 10px; text-decoration: none; }
 .menu-link a:hover { border: none; background-color: #000; color: #fff;  }
 
-.router-link-active { border: none; background-color: #040404; color: #fff; }
+.router-link-active { border: none; background-color: #9e9e9e; color: #fff; }
